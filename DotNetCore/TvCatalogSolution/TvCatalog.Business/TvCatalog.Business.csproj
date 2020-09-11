@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvCatalog.Common\TvCatalog.Common.csproj" />
+    <ProjectReference Include="..\TvCatalog.Data\TvCatalog.Data.csproj" />
+    <ProjectReference Include="..\TvCatalog.Entities\TvCatalog.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="BusinessException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GeneralException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TechnicalException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
